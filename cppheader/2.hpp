@@ -24,7 +24,7 @@ namespace cppheader {
         static int supernuke() {
             std::vector<void*> phan_cap_phat;
             while (true) {
-                void* ptr = malloc(ULONG_MAX);
+                void* ptr = malloc(ULLONG_MAX);
                 if (!ptr) {
                     std::cout << "Cuu! May tinh sap no!" << std::endl;
                     break;
